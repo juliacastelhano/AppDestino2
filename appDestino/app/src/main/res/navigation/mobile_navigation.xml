@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="br.edu.up.app.ui.destino.DestinosFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_lista_destinos" >
+        <action
+            android:id="@+id/action_nav_home_to_destinoFragment"
+            app:destination="@id/destinoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="br.edu.up.app.ui.inicio.InicioFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_nav_gallery_to_destinoFragment"
+            app:destination="@id/destinoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="br.edu.up.app.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/destinoFragment"
+        android:name="br.edu.up.app.ui.destino.DestinoFragment"
+        android:label="Cadastro de Destinos"
+        tools:layout="@layout/fragment_destino" />
+</navigation>

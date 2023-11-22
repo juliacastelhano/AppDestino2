@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "433197750035",
+    "project_id": "appdestino-b93b0",
+    "storage_bucket": "appdestino-b93b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433197750035:android:5b3070335d6cb5622a2ce6",
+        "android_client_info": {
+          "package_name": "br.edu.up.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx8dE9VbdehDr8M06WVyD6WIBm4Qv0f8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

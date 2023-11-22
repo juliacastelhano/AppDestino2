@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/destinoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.destino.DestinoFragment"
+    >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#B5EAEA"
+            android:fontFamily="sans-serif-black"
+            android:hint="Nome do destino"
+            android:inputType="text|textMultiLine"
+            android:shadowColor="#0F0F0F"
+            android:textColor="#0F0F0F"
+            android:textColorHint="#0F0F0F" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputPais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#B5EAEA"
+            android:fontFamily="sans-serif-black"
+            android:hint="Pais do destino"
+            android:inputType="textMultiLine"
+            android:textColorHint="#0F0F0F" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputPontosTuristicos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#B5EAEA"
+            android:fontFamily="sans-serif-black"
+            android:hint="Pontos Turísticos"
+            android:textColorHint="#0F0F0F" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/inputFoto"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:background="#B5EAEA"-->
+<!--            android:fontFamily="sans-serif-black"-->
+<!--            android:hint="Foto de Destino"-->
+<!--            android:textColorHint="#0F0F0F" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputPrevisaoPartida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#B5EAEA"
+            android:fontFamily="sans-serif-black"
+            android:hint="Previsão de Partida"
+            android:inputType="date"
+            android:textColorHint="#0F0F0F" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnFoto"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#B5EAEA"
+        android:fontFamily="sans-serif-black"
+        android:text="Escolher Foto"
+        android:textColor="#0F0F0F"
+        android:textColorHint="#0F0F0F"
+        android:textColorLink="#0F0F0F"
+        android:textSize="16sp"
+        app:cornerRadius="5dp" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#1AA6B7"
+        android:fontFamily="sans-serif-black"
+        android:text="Salvar"
+        android:textSize="16sp"
+        app:cornerRadius="30dp" />
+
+</LinearLayout>
